@@ -1,32 +1,23 @@
-# xtend
+#COMPANY:CODTECH IT SOLUTIONS
 
-[![browser support][3]][4]
+*NAME:VEDANTI KRUSHNAJI MASALE
 
-[![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges)
+*INTERN ID: CTIS5346
 
-Extend like a boss
+*DOMAIN: FULL STACK WEB DEVELOPMENT
 
-xtend is a basic utility library which allows you to extend an object by appending all of the properties from each object in a list. When there are identical properties, the right-most property takes precedence.
+*DURATION: 4 WEEKS
 
-## Examples
+*MENTOR:NEELA SANTHOSH KUMAR
 
-```js
-var extend = require("xtend")
+##THE PROJECT DEMONSTRATES THE CONCEPT OF CODE EXECUTION VS CODE STRUCTURE, HIGHLIGHTING HOW BACKEND AND FRONTEND TECHNOLOGIES WORK TOGETHER TO BUILD WEB.IT'S USED JAVASCRIPT WITH NODE.JS
+FOR SERVER-SIDE LOGIC AND MONGOOSE(MONGODB) FOR DATABASE MANAGEMENT.
+THE PROJECT SHOWCASES HOW CODE RUNS ON THE SERVER(HANDLING APIS, DATABASE OPERATIONS, AND BUSINESS LOGIC)WHILE STRUCTURED FRONTEND COMPONENTS DELIVER AN INTERACTIVE USER EXPERIENCE.
 
-// extend returns a new object. Does not mutate arguments
-var combination = extend({
-    a: "a",
-    b: "c"
-}, {
-    b: "b"
-})
-// { a: "a", b: "b" }
-```
+*OUTPUT
 
-## Stability status: Locked
+![Image](https://github.com/user-attachments/assets/fc9e20bf-4906-4a23-9af7-8f2946ec83c3)
 
-## MIT Licensed 
+![Image](https://github.com/user-attachments/assets/de911d26-2319-42e0-ac27-a18fb5e1f449)
 
-
-  [3]: http://ci.testling.com/Raynos/xtend.png
-  [4]: http://ci.testling.com/Raynos/xtend
+![Image](https://github.com/user-attachments/assets/1d31dbb7-67ab-4186-b14f-651ae4175e7c)
