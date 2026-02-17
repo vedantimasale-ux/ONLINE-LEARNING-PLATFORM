@@ -1,22 +1,25 @@
-<h3>Quiz</h3>
-<p id="question"></p>
-<button onclick="check('Programming')">Programming</button>
-<button onclick="check('Markup')">Markup</button>
-<button onclick="check('Database')">Database</button>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<script>
-const quiz = {
-question:"What is HTML?",
-answer:"Markup"
-};
+<div class="container">
+  <h2>Login</h2>
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
 
-document.getElementById("question").innerText = quiz.question;
+  <h3>OR</h3>
 
-function check(ans){
-    if(ans === quiz.answer){
-        alert("Correct!");
-    } else {
-        alert("Wrong!");
-    }
-}
-</script>
+  <h2>Register</h2>
+  <input type="email" id="regEmail" placeholder="Email">
+  <input type="password" id="regPassword" placeholder="Password">
+  <button onclick="register()">Register</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
