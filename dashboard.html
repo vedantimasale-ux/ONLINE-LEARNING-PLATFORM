@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Welcome Student</h1>
+
+<div class="course">
+  <h2>Web Development Course</h2>
+
+  <video width="600" controls>
+    <source src="sample-video.mp4" type="video/mp4">
+  </video>
+
+  <button onclick="completeLesson()">Mark as Completed</button>
+</div>
+
+<div class="quiz">
+  <h2>Quiz</h2>
+  <p>What does HTML stand for?</p>
+
+  <button onclick="submitQuiz('wrong')">Hyper Tool Markup</button>
+  <button onclick="submitQuiz('correct')">Hyper Text Markup Language</button>
+  <button onclick="submitQuiz('wrong')">Home Tool Markup</button>
+</div>
+
+<div class="progress">
+  <h3>Your Progress:</h3>
+  <div class="progress-bar">
+    <div id="progressFill"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
